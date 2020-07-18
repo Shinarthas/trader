@@ -1,0 +1,308 @@
+.navbar-inverse {
+    background: linear-gradient(#4c8aca, #0947a5);
+    border-color: #ececec;
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: 600;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:white;
+}
+.status_icon {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display:inline-block;
+    margin:10px;
+    border: 0.5px solid black;
+}
+.status_icon.status_0 {
+    background:#eee;
+}
+.status_icon.status_1 {
+    background:#eee;
+}
+.status_icon.status_2 {
+    background:#00cc00;
+}
+.status_icon.status_3 {
+    background:#ffcc00;
+}
+.status_icon.status_4 {
+    background:#337ab7;
+}
+.status_icon.status_5 {
+    background:#FF0039;
+}
+.group_container .list>div {
+    border-bottom:1px solid #eee;
+}
+.col-lg-3 h2{
+    height: 60px;
+}
+.col-lg-3 p{
+    height: 70px;
+}
+.custom-trade a{
+    width: 100%;
+    background: white;
+    margin: 3px;
+}
+.custom-trade a.btn:hover{
+    width: 100%;
+    background: white;
+    margin: 3px;
+}
+.custom-trade .form-control{
+    margin: 3px;
+}
+.custom-trade .btn-primary{
+    color: #337ab7;
+}
+.custom-trade .btn-success{
+    color: #5cb85c;;
+}
+.custom-trade .btn-danger{
+    color: #d9534f;
+}
+.navbar-inverse .navbar-nav > li.red > a{
+    color: #d9534f;
+}
+
+.noti-count{
+    margin: 3px;
+    height: 17px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    right: 25px;
+}
+.open .noti-count{
+   color: black;
+}
+.user-placeholder{
+    max-height: 22px;
+}
+
+.label{
+    text-shadow: none;
+    padding: 1px 4px;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}
+.nav .dropdown-menu li > form > button.logout {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.nb-spinner {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    background: transparent;
+    border-top: 4px solid #03A9F4;
+    border-right: 4px solid transparent;
+    border-radius: 50%;
+    -webkit-animation: 1s spin linear infinite;
+    animation: 1s spin linear infinite;
+}
+
+.noty_theme__mint.noty_bar {
+	border-radius:0;
+}
+
+.dropdown-header {
+	padding: 3px 13px;
+}
+.dropdown-header i {
+	margin-right: 3px;
+}
+.dropdown-menu {
+	border: 1px solid rgb(29, 91, 176);
+	border-top:0;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background:transparent;
+}
+
+
+
+ .content-trade-sidebar {
+
+     position: fixed;
+     width: 3.75rem;
+     overflow: visible;
+     height: 100%;
+     z-index: 99;
+ }
+
+.content-trade-body {
+
+    min-height: 1100px;
+    margin-left: 3.75rem;
+    z-index: 0;
+}
+
+.content-trade-sidebar-block {
+    width: 100%;
+    height: 3.75rem;
+    padding: 15px;
+    transition: .1s;
+}
+
+.content-trade-sidebar-block:hover {
+    width: calc(100% + 5px);
+    background: #6727FD;
+    padding-right: 20px;
+    border-radius: 0 5px 5px 0;
+    transition: .1s;
+}
+
+.content-trade-sidebar-block img {
+    filter: invert(1);
+    width: 100%;
+}
+
+.content-trade-sidebar-block-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.content-trade-sidebar-block-center {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.card {
+    margin-bottom: 1.875rem;
+
+    transition: all .5s ease-in-out;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .15);
+    z-index: 0;
+    color: #2E2D32;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1.5rem;
+
+}
+
+.progress {
+    height: 6px;
+    overflow: visible;
+    font-size: .65625rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2E2D32;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin-bottom: 0;
+}
+
+.card-action .dropdown {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    text-align: center;
+    margin-right: 12px;
+    position: relative;
+    display: inline-block;
+    background: #000;
+    color: #5e1084;
+}
+
+.card-action>a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border-color: transparent;
+    text-align: center;
+    background: #000;
+    color: #2E2D32;
+    margin-right: 8px;
+}
+
+#balance_graph {
+    height: 260px;
+}
+.table thead th {
+    border-bottom-width: 1px;
+    text-transform: uppercase;
+    color: #b0b0b0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    border-color: rgba(0,0,0,.15);
+    border-top: none!important;
+}
+.table tbody tr td {
+    vertical-align: middle;
+    border-color: rgba(0,0,0,.15);
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #292929;
+    /*border:1px solid rgb(34,34,34);*/
+    border-bottom: none;
+    border-top: none;
+}
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    transition: .1s;
+}
